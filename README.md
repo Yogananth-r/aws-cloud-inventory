@@ -38,7 +38,7 @@ aws-cloud-inventory/
 Clone the repository:
 
 ```bash id="y4ukkw"
-git clone git@github.com:<your-github-username>/aws-cloud-inventory.git
+git clone git@github.com:Yogananth-r/aws-cloud-inventory.git
 cd aws-cloud-inventory
 ```
 
