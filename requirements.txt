@@ -1,0 +1,5 @@
+typer==0.17.4
+boto3>=1.40.0
+botocore>=1.40.0
+rich>=14.1.0
+openpyxl>=3.1.5
