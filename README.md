@@ -70,7 +70,7 @@ Export EC2 inventory for the current region:
 python3 cli.py export
 ```
 
-Export EC2 inventory for a specific region:
+Export EC2 & EBS inventory for a specific region:
 
 ```bash id="onwsxw"
 python3 cli.py export --region eu-central-1
@@ -92,19 +92,9 @@ The workbook currently contains:
 | Worksheet     | Description                                        |
 | ------------- | -------------------------------------------------- |
 | EC2 Inventory | EC2 instance metadata for the selected AWS region. |
+| EBS           | EBS data                                           |
 
-### Included EC2 Fields
-
-* Instance Name
-* Instance ID
-* Region
-* State
-* Instance Type
-* Private IP
-* Public IP
-* Platform
-* Availability Zone
-* Launch Time
+### Included EC2 & EBS Fields
 
 ## Roadmap
 
@@ -115,7 +105,6 @@ The workbook currently contains:
 ### V0.3
 
 * RDS inventory.
-* EBS inventory.
 * S3 inventory.
 
 ### V0.4
