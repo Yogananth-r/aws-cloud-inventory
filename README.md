@@ -24,6 +24,7 @@ aws-cloud-inventory/
 ├── config.py
 ├── collectors/
 │   └── ec2.py
+│   └── ebs.py
 ├── exporter/
 │   └── excel.py
 ├── utils/
